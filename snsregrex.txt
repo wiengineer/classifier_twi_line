@@ -1,0 +1,6 @@
+sns = ["twitter.com","instagram.com","line.me","line.naver.jp"]
+# text = "fjeijofje  https://twitter.com/konotarogomame jfie"
+text = "fjeiofjei  https://www.instagram.com/fm_instalab/feji fjieojfoei"
+# m = re.search(r"https?://.*twitter.com/.*/?\s?", text)
+m = re.search(r"https?://.*instagram.com/.*/?\s?", text)
+m.group()
